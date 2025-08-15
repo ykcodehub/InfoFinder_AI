@@ -1,24 +1,12 @@
 fastapi>=0.115
-uvicorn[standard]>=0.30
+uvicorn>=0.30
 pydantic>=2.7
+cryptography>=42.0
+watchdog>=4.0
 pytesseract>=0.3.10
 Pillow>=10.0
 PyPDF2>=3.0
-watchdog>=4.0
 faiss-cpu>=1.8.0
 sentence-transformers>=3.0
-torch>=2.2 ; platform_system != "Windows" or platform_machine != "ARM64"
-torch==2.2.2+cpu ; platform_system == "Windows" and platform_machine == "AMD64" # optional pin if needed
-numpy>=1.26
-scikit-learn>=1.4
-rank-bm25>=0.2.2
-argon2-cffi>=23.1.0
-cryptography>=43.0
-sqlalchemy>=2.0
-alembic>=1.13
-langcodes>=3.3.0
-python-multipart>=0.0.9
-pyyaml>=6.0
-tqdm>=4.66
-# Optional: SQLCipher bindings (if available)
-pysqlcipher3 ; platform_system == "Windows"
+torch>=2.2
+python-dotenv>=1.0

@@ -1,0 +1,3 @@
+2025-08-15 17:00:42,245 [INFO] InfoFinderAI: This is an info log
+2025-08-15 17:00:42,246 [WARNING] InfoFinderAI: This is a warning log
+2025-08-15 17:00:42,246 [ERROR] InfoFinderAI: This is an error log
